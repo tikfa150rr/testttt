@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const noButton = document.querySelector('#noButton');
 
     yesButton.addEventListener('click', () => {
-        alert('You clicked Yes!');
-    });
+    window.location.href = 'yes.html'; // เปลี่ยนหน้าไปที่ yes.html
+});
+
 
     noButton.addEventListener('mouseover', moveButton);
 });
